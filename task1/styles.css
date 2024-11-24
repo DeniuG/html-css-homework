@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+    background-color: #ff0fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header h1 {
+    text-align: center; 
+
+    color: #333;
+    margin-top: 20px;
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+}
+
+.avatar {
+    width: 300px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.favorites ul {
+    list-style-type: disc; /* Маркированный список */
+    margin: 20px auto; /* Отступы вокруг списка */
+    padding-left: 40px; /* Отступ слева */
+    max-width: 300px; /* Ширина списка */
+    text-align: left; /* Текст выровнен слева */
+}
+
+.favorites li {
+    margin-bottom: 10px; /* Отступы между элементами */
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
